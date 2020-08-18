@@ -13,6 +13,7 @@
 		57C771A724EBDD8A0027D504 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57C771A524EBDD8A0027D504 /* Main.storyboard */; };
 		57C771A924EBDD8B0027D504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57C771A824EBDD8B0027D504 /* Assets.xcassets */; };
 		57C771AC24EBDD8B0027D504 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57C771AA24EBDD8B0027D504 /* LaunchScreen.storyboard */; };
+		57C771B424EBF7670027D504 /* PrintData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C771B324EBF7670027D504 /* PrintData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		57C771A824EBDD8B0027D504 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57C771AB24EBDD8B0027D504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57C771AD24EBDD8B0027D504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57C771B324EBF7670027D504 /* PrintData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		57C7719E24EBDD8A0027D504 /* Singleton */ = {
 			isa = PBXGroup;
 			children = (
+				57C771B524EBF7EE0027D504 /* SingletonPattern */,
 				57C7719F24EBDD8A0027D504 /* AppDelegate.swift */,
 				57C771A124EBDD8A0027D504 /* SceneDelegate.swift */,
 				57C771A324EBDD8A0027D504 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				57C771AD24EBDD8B0027D504 /* Info.plist */,
 			);
 			path = Singleton;
+			sourceTree = "<group>";
+		};
+		57C771B524EBF7EE0027D504 /* SingletonPattern */ = {
+			isa = PBXGroup;
+			children = (
+				57C771B324EBF7670027D504 /* PrintData.swift */,
+			);
+			path = SingletonPattern;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57C771A424EBDD8A0027D504 /* ViewController.swift in Sources */,
+				57C771B424EBF7670027D504 /* PrintData.swift in Sources */,
 				57C771A024EBDD8A0027D504 /* AppDelegate.swift in Sources */,
 				57C771A224EBDD8A0027D504 /* SceneDelegate.swift in Sources */,
 			);

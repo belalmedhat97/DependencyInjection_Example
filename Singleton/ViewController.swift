@@ -15,6 +15,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBOutlet weak var ShowString: UILabel!
+    
+    @IBAction func GetData(_ sender: UIButton) {
+        ShowString.text = PrintData.Shared.GetData()
+    }
 }
 
