@@ -10,7 +10,7 @@ import Foundation
 class PrintData:PrintDataProtocols{
     init() {}
     func GetData() -> String {
-        let singletonString = "Dependency Injection"
-        return singletonString
+        let DependencyString = "Dependency Injection"
+        return DependencyString
     }
 }
